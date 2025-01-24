@@ -1,0 +1,20 @@
+.description,
+.title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description {
+    -webkit-line-clamp: 3;
+}
+
+.title {
+    -webkit-line-clamp: 1;
+}
+
+.img-fixed-size {
+    height: 300px;
+    /* //object-fit: cover; */
+}
