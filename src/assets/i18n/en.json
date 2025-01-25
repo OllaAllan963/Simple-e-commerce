@@ -15,6 +15,9 @@
         "YourCartIsEmpty": "Your Cart is Empty",
         "ShopNow": "Shop now",
         "AddToCart": "Add to Cart",
-        "Total": "Total"
+        "Total": "Total",
+        "AlreadyInTheCart": "Already in the Cart. Quantity Updated",
+        "AddedInTheCart": "Added in the Cart",
+        "ProductRemovedFromTheCart": "Product removed from the Cart"
     }
 }

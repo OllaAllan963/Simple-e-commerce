@@ -15,6 +15,9 @@
         "YourCartIsEmpty": "سلتك فارغة",
         "ShopNow": "تسوق الان",
         "AddToCart": "إضافة الى السلة",
-        "Total": "السعر الكلي"
+        "Total": "السعر الكلي",
+        "AlreadyInTheCart": "بالفعل موجود في السلة. الكمية بعد التحديث",
+        "AddedInTheCart": "تم إضافتها الى السلة",
+        "ProductRemovedFromTheCart": "تم إزالة المنتج من السلة"
     }
 }
