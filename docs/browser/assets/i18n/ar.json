@@ -1,0 +1,20 @@
+{
+    "validation": {
+        "Products": "المنتجات",
+        "En": "انكليزي",
+        "Ar": "عربي",
+        "Sorry": "عذراً",
+        "NotFoundText": "هذه الصفحة غير متوفرة حالياً",
+        "BackToHomePage": "الرجوع الى الصفحة الرئيسية",
+        "Action": "حدث",
+        "Quantity": "الكمية",
+        "Price": "السعر",
+        "ProductImage": "صورة المنتج",
+        "ProductName": "اسم المنتج",
+        "No": "الرقم",
+        "YourCartIsEmpty": "سلتك فارغة",
+        "ShopNow": "تسوق الان",
+        "AddToCart": "إضافة الى السلة",
+        "Total": "السعر الكلي"
+    }
+}

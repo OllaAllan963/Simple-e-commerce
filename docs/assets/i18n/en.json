@@ -1,0 +1,20 @@
+{
+    "validation": {
+        "Products": "Products",
+        "En": "En",
+        "Ar": "Ar",
+        "Sorry": "Sorry",
+        "NotFoundText": "This page is not available right now",
+        "BackToHomePage": "Back to Home",
+        "Action": "Action",
+        "Quantity": "Quantity",
+        "Price": "Price",
+        "ProductImage": "Product Image",
+        "ProductName": "Product Name",
+        "No": "No",
+        "YourCartIsEmpty": "Your Cart is Empty",
+        "ShopNow": "Shop now",
+        "AddToCart": "Add to Cart",
+        "Total": "Total"
+    }
+}
