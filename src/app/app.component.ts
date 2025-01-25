@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,9 @@ import { HeaderComponent } from './components/header/header.component';
 })
 export class AppComponent {
   title = 'e-commerce';
+  translateService = inject(TranslateService);
+
+  ngOnInit() {
+    this.translateService.setDefaultLang('en');
+  }
 }

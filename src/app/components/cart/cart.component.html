@@ -3,12 +3,12 @@
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <td> No </td>
-                <td> Product Name </td>
-                <td> Product Image </td>
-                <td> Price </td>
-                <td> Quantity </td>
-                <td> Action </td>
+                <td> {{ 'validation.No' | translate}} </td>
+                <td> {{ 'validation.ProductName' | translate}} </td>
+                <td> {{ 'validation.ProductImage' | translate}} </td>
+                <td> {{ 'validation.Price' | translate}} </td>
+                <td> {{ 'validation.Quantity' | translate}} </td>
+                <td> {{ 'validation.Action' | translate}} </td>
             </tr>
         </thead>
         <tbody>
@@ -28,7 +28,7 @@
             }
         </tbody>
         <div class="d-flex justify-content-between align-items-center mt-3">
-            <strong> Total: {{ TotalAmount | currency:"USD" }} </strong>
+            <strong> {{ 'validation.Total' | translate}}: {{ TotalAmount | currency:"USD" }} </strong>
         </div>
     </table>
 </div>
@@ -36,8 +36,8 @@
 <div class="container d-flex justify-content-center align-items-center" style="margin-top:90px;height: 100vh;">
     <div class="text-center">
         <img src="assets/cart_empty.png" alt="cart_empty" class="cartImg" />
-        <h3 style="font-weight: 700;"> Your Cart is Empty </h3>
-        <button class="btn btn-primary" routerLink="/home"> Shop Now </button>
+        <h3 style="font-weight: 700;"> {{ 'validation.YourCartIsEmpty' | translate}} </h3>
+        <button class="btn btn-primary" routerLink="/home"> {{ 'validation.ShopNow' | translate}} </button>
     </div>
 </div>
 }

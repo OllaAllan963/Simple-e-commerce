@@ -1,6 +1,6 @@
 import { inject, Injectable } from '@angular/core';
 import { NotificationService } from './notification.service';
-import { Product } from '../models/Product';
+import { Product } from '../../models/Product';
 
 @Injectable({
   providedIn: 'root'

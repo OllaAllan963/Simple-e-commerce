@@ -2,9 +2,10 @@
     <img [src]="product.image" class="card-img-top img-fixed-size" [alt]="product.title">
     <div class="card-body">
         <h5 class="card-title title"> {{ product.title }}</h5>
-        <p class="card-text"><strong>Price: </strong> {{ product.price | currency:"USD"}} </p>
+        <p class="card-text"><strong>{{ 'validation.Price' | translate}}: </strong> {{ product.price | currency:"USD"}}
+        </p>
         <p class="card-text"> {{ product.category }} </p>
         <p class="card-text description"> {{ product.description }} </p>
-        <a class="btn btn-primary" (click)="addToCart(product)">Add to Cart</a>
+        <a class="btn btn-primary" (click)="addToCart(product)">{{ 'validation.AddToCart' | translate}}</a>
     </div>
 </div>

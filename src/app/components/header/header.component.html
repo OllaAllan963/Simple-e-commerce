@@ -10,7 +10,8 @@
             <div [ngClass]="show ? '' : 'collapse'" class="navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" routerLink="/">Products</a>
+                        <a class="nav-link active" aria-current="page" routerLink="/">{{ 'validation.Products' |
+                            translate }}</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
@@ -19,6 +20,20 @@
                             <i class="fas fa-cart-shopping"></i>
                             <span class="badge bg-danger">{{ getCartProductCount() }}</span>
                         </a>
+                    </li>
+                    <li class="nav-item dropdown" (click)="toggleDropdown()">
+                        <a class="nav-link dropdown-toggle" role="button" id="languageDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ currentLang }}
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown"
+                            [ngStyle]="{'text-align' : lang === 'en' ? 'left' : 'right'}"
+                            [ngClass]="{'show': dropdownOpen}" style="width:fit-content">
+                            <li><a class="dropdown-item" (click)="changeLanguage('en')">{{ 'validation.En' | translate
+                                    }}</a></li>
+                            <li><a class="dropdown-item" (click)="changeLanguage('ar')">{{ 'validation.Ar' | translate
+                                    }}</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,31 @@
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.img {
+    @media only screen and (max-width: 425px) {
+        width: 100%;
+    }
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-position: center;
+    height: 100%;
+    max-width: 23rem;
+    text-align: center;
+    margin: auto;
+}
+
+.g {
+    font-size: 1.125rem;
+    color: #888b98;
+    line-height: 1.8;
+}
+
+.sorry-text {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+}

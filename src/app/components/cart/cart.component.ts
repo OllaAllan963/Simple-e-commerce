@@ -2,12 +2,13 @@ import { Component, inject } from '@angular/core';
 import { Product } from '../../models/Product';
 import { RouterLink } from '@angular/router';
 import { CurrencyPipe } from '@angular/common';
-import { CartService } from '../../services/cart.service';
+import { CartService } from '../../shared/services/cart.service';
+import { SharedModule } from '../../shared/shared.module';
 
 @Component({
   selector: 'app-cart',
   standalone: true,
-  imports: [RouterLink, CurrencyPipe],
+  imports: [RouterLink, CurrencyPipe, SharedModule],
   templateUrl: './cart.component.html',
   styleUrl: './cart.component.css'
 })

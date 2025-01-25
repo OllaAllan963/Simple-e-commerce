@@ -1,12 +1,13 @@
 import { CurrencyPipe } from '@angular/common';
 import { Component, inject, Input } from '@angular/core';
 import { Product } from '../../models/Product';
-import { CartService } from '../../services/cart.service';
+import { CartService } from '../../shared/services/cart.service';
+import { SharedModule } from '../../shared/shared.module';
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [CurrencyPipe],
+  imports: [CurrencyPipe, SharedModule],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })
